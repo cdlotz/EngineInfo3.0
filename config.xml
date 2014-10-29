@@ -1,0 +1,21 @@
+<!-- Cory Lotz EngineInfo3.0 config.xml -->
+<widget>
+
+    <name>Engine Info 3.0</name>
+
+    <description>
+       An engine info site with calculations.
+    </description>
+
+    <author>
+        Cory Lotz
+    </author>
+	<content src = Engine.html />
+
+	<gap: platform name = "android" />
+	
+	<icon src = "engine_diagram1.png" />
+	
+	<gap: splash src = "connectingRod.png" />
+	
+</widget>
