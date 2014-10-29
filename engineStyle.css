@@ -1,0 +1,60 @@
+/* engineStyle.css Cory Lotz 9/30/2014 */
+
+body{
+	background-color: #80CC80
+}
+
+h1{
+	color: #000080;
+	border-style: solid;
+	border-width: .05em;
+	border-color: blue;
+	padding: 2%;
+	background-color: orange;
+}
+
+
+section h1{
+	color: #E62E00;
+	padding: 2%;
+	background-color: #000080;
+}
+/* shift content to left to give space for navigation bar*/
+
+/* text section properties*/
+section {
+	margin-left: 22%;
+	font-size: 1.25em;
+	
+}
+
+/*navigation bar properties*/
+nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	float: left;
+}
+nav p{
+	font-size: .90em;
+}
+/* navagation bar properties*/
+
+
+a.navg:link, a.navg:visited {
+    display: block;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #0099FF;
+    width: 85%;
+	
+    text-align: center;
+    padding: 4%;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+a.navg:hover, an.avg:active {
+    background-color: #000099;
+}

@@ -1,0 +1,57 @@
+<!--Vales HTML Cory Lotz 9/25/2014-->
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link rel = "stylesheet" type = "text/css" href = "engineStyle.css">
+		<script src="multiplier.js"></script>
+	</head>
+	
+	<body>
+		<h1>Internal Combustion Engine</h1>
+		
+		<nav>
+			<a class = "navg" href = "Engine.html">Engine</a>
+			<a class = "navg" href = "Piston.html">Piston</a>
+			<a class = "navg" href = "Sparkplug.html" >Sparkplug</a>
+			<a class = "navg" href = "Valves.html">Valves</a>
+			<a class = "navg" href = "Camshaft.html" >Camshaft</a>
+			<a class = "navg" href = "Crankshaft.html" >Crankshaft</a>
+			<a class = "navg" href = "ConnectingRod.html">Connecting Rod</a>
+			
+		</nav>
+			
+		<section>	
+			<h1>Valves </h1>
+			
+			<img src = "valvesPlain.jpg" width = 25%>
+			<img src = "valvesWithMans.jpg" width = 35%>
+			
+			<p>
+				The valves prevent gasses from escaping during compression and combustion
+				phases, yet allow gasses to enter and leave the combustion chamber during 
+				intake and exhaust stages. The image on the left is a cut away showing the
+				top of the engine where the valves are located. 
+			</p>
+		</section>
+		
+		<br><br>
+		
+		<section>
+			<h3>Calculate the number of Valves in an engine<br></h3>
+			
+			<form>
+				Number of Cylinders:
+				<input id = "input1" type="text" value = "0" ><br>
+				Valves per Clinder:
+				<input id = "input2" type = "text" value = "0">
+			</form>
+					
+				<button type = "button" onclick = "multFunct(false)">Calculate</button>
+				
+				<p>Number of Valves:</p> <p id = "result">_</p>
+		</section>
+	</body>
+
+</html>

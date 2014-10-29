@@ -1,0 +1,64 @@
+<!--Engine HTML Cory Lotz 9/24/2014-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel = "stylesheet" type = "text/css" href = "engineStyle.css">
+		<script src="multiplier.js"></script>
+	</head>
+	
+	<body>
+		<h1>Internal Combustion Engine</h1>
+		
+		<nav>
+			<a class = "navg" href = "Engine.html">Engine (E)</a>
+			<a class = "navg" href = "Piston.html">Piston (P)</a>
+			<a class = "navg" href = "Sparkplug.html" >Sparkplug (S)</a>
+			<a class = "navg" href = "Valves.html">Valves (V)</a>
+			<a class = "navg" href = "Camshaft.html" >Camshaft (I & E)</a>
+			<a class = "navg" href = "Crankshaft.html" >Crankshaft (C)</a>
+			<a class = "navg" href = "ConnectingRod.html">Connecting Rod (R)</a>
+			
+			<p>	
+				note: the letter in <br> the parenthesis corresponds <br>
+				with the letters in the <br> photo on the right
+			</p>
+		</nav>
+		<section>
+			<h1>Overview</h1>
+			
+			<img src = "engine_diagram1.png" width = 30%>
+
+			<p>The internal combustion engine converts the chemical energy
+			of the fuel to mechanical energy(movement).</p>
+			
+		</section>
+		
+		<br><br>
+		
+		<section>	
+			<h3> Calculate horsepower From Torque and RPM<br></h3>
+			
+			<form>
+				Revolutions Per Minute:
+				<input id = "input1" type="text" value = "0" ><br>
+				Torque(in ft-lbs):
+				<input id = "input2" type = "text" value = "0">
+			</form>
+					
+				<button type = "button" onclick = "multFunct(true)">Calculate</button>
+				
+				<p>Number of Valves:</p> <p id = "result">_</p>
+		</section>
+		
+	</body>
+	
+	footer>
+		<p>The Code for this page can be found at:<br><p/>
+		<a href = "https://github.com/cdlotz/EngineInfo3.0"> https://github.com/cdlotz/EngineInfo2.0</a>
+		
+		<p>This site can be downloaded as an app from:</p>
+		<a href = "https://build.phonegap.com/apps/1112848">https://build.phonegap.com/apps/1112848</a>
+		
+	</footer>
+</html>
