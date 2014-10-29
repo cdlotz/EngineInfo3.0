@@ -1,5 +1,7 @@
-<!-- Cory Lotz EngineInfo3.0 config.xml -->
 <?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Cory Lotz EngineInfo3.0 config.xml -->
+
 <widget id        = "EngineInfo3.0"
         version   = "3.0.0">
 
@@ -18,6 +20,8 @@
 	
 	<icon src = "engine_diagram1.png" />
 	
-	<gap: splash src = "connectingRod.png" />
+	<gap: splash src = "connectingRod.png" >
+	
+	<preference name="permissions" value="none"/>
 	
 </widget>
