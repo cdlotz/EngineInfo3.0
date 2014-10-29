@@ -2,12 +2,9 @@
 
 <!-- Cory Lotz EngineInfo3.0 config.xml -->
 
-	
-    <widget xmlns   = "http://www.w3.org/ns/widgets"
-        xmlns:gap   = "http://phonegap.com/ns/1.0"
-		xmlns:android   = "http://schemas.android.com/apk/res/android"
-        id          = "edu.iupui.n300.EngineInfo3.0"
-        version     = "3.0.0" >
+	<widget id        = "EngineInfo3.0"
+			version   = "3.0.0">
+
 		<name>Engine Info 3.0</name>
 
 		<description>
