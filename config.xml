@@ -1,6 +1,7 @@
 <!-- Cory Lotz EngineInfo3.0 config.xml -->
 <?xml version="1.0" encoding="UTF-8" ?>
-<widget>
+<widget id        = "EngineInfo3.0"
+        version   = "3.0.0">
 
     <name>Engine Info 3.0</name>
 
